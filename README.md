@@ -9,16 +9,15 @@ Built for the *Artificial Intelligence* digital assignment (case study).
 
 | | |
 |---|---|
-| Name | _YOUR NAME_ (edit `src/config/student.ts`) |
-| Registration number | _24XXX0000_ |
+| Name | Sivaseelan Sa |
+| Registration number | 24BCE2526 |
 | Course | Artificial Intelligence |
 | Algorithm | 6 – Greedy Best First Search |
 
 ## Live demo
 
-- GitHub repository: `https://github.com/<username>/AI-8Puzzle-Visualizer`
-- **GitHub Pages URL:** `https://<username>.github.io/AI-8Puzzle-Visualizer/`
-- Demo video (3–5 min): _add link_
+- GitHub repository: `https://github.com/siva2526/8Puzzle-Solver/`
+- **GitHub Pages URL:** `https://siva2526.github.io/8Puzzle-Solver/`
 
 ## Project description
 
@@ -37,7 +36,7 @@ g(n), h(n), f(n) for informed algorithms; and the final solution path. Controls:
 
 ## Technologies used
 
-- **Vue 3** (Composition API, `<script setup>`) + **TypeScript** (strict)
+- **Vue 3** + **TypeScript** (strict)
 - **TanStack Router** (`@tanstack/vue-router`) – typed routes and search params
 - **TanStack Query** (`@tanstack/vue-query`) – runs and caches the algorithm comparison
 - **TanStack Table** (`@tanstack/vue-table` v9) – sortable comparison table
@@ -100,7 +99,7 @@ npm run preview    # serve the production build
 
 1. Create a repository named `AI-8Puzzle-Visualizer` and push this project to the `main` branch.
 2. In **Settings → Pages**, set **Source = GitHub Actions**.
-3. The workflow in `.github/workflows/deploy.yml` runs the tests, builds and publishes the site. The build uses relative asset paths and hash routing, so it works under `https://<username>.github.io/AI-8Puzzle-Visualizer/` without extra configuration.
+3. The workflow in `.github/workflows/deploy.yml` runs the tests, builds and publishes the site. The build uses relative asset paths and hash routing, so it works under `https://siva2526.github.io/8Puzzle-Solver/` without extra configuration.
 
 ## Repository structure
 
